@@ -1,14 +1,12 @@
 package Controller;
-import Model.Weight;
+
 
 public class WeightController {
 	
-	Weight weight;
+	// to calculate the weight of human on Mars
 	public double CalculateWeight (double weightEarth)
 	{
-		double weightMars =0.38*weightEarth;
-		/* weight= new Weight();
-		 weight.setWeightOnMars(0.38*weightEarth);*/
+		double weightMars = 0.38*weightEarth;
 		 
 		 return weightMars;	 	 
 		
