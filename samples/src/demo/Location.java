@@ -5,6 +5,8 @@ public class Location {
 	private String location;
 	private String name;
 	
+	
+
 	public String getName() {
 		return name;
 	}
